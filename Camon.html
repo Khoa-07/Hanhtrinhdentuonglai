@@ -1,20 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <title>Cảm ơn đóng góp của bạn! </title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cảm ơn bạn!</title>
     <style>
         body {
-            position: relative; /* Thêm position relative cho body */
-            overflow: hidden; /* Ẩn phần mã nhị phân tràn ra ngoài */
-            text-allign: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background: #007BFF;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1 style="color:darkslategray; margin-top: 100px;">Cảm ơn đóng góp của các bạn!</h1>
-    <p style="font-size: 50px; color: tomato;">
-        <em><strong>Chúng mình sẽ nỗ lực hơn trong việc cải tạo web và cập nhật thông tin sớm nhất để phục vụ cho nhu cầu của các bạn. Chúc các bạn một ngày tốt lành!!!</strong></em>
-    </p>
+    <div class="container">
+        <h1>Cảm ơn bạn đã đóng góp ý kiến!</h1>
+        <p>Chúng mình sẽ tiếp thu và cải thiện website để phục vụ bạn tốt hơn. Chúc bạn một ngày tốt lành! 🌟</p>
+        <a href="index.html" class="btn">Quay lại trang chủ</a>
+    </div>
 </body>
 </html>
+
